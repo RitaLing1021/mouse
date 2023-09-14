@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>鼠部族譜(非官方)</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="title"><h1>鼠部族譜(非官方)</h1></div>
+        <div class="title"><h1><a href="#" target="_top">鼠部族譜(非官方)</a></h1>
+            目前老鼠總數<span id="mouseNum"></span>個等級</div>
+
+            
+            <!--所有老鼠名字-->
+            <ul class="list">
+                <li><a href="#"></a></li>
+               
+            </ul> 
+
+
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.0 死老鼠</h2>
+                    <h2 id="lv0"></h2>
                     <img src="img/lv0.jpg" class="img-fluid" alt="死老鼠">
                 </div>
                 </div>
@@ -33,7 +43,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.1 國王</h2>
+                    <h2 id="lv1"></h2>
                     <p>胡蒂亞鼠(世界上數量最少的鼠)</p>
                     <img src="img/lv1.jpg" class="img-fluid" alt="國王">
                 </div>
@@ -53,7 +63,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.2 皇后</h2>
+                    <h2 id="lv2"></h2>
                     <p>食蛇鼠(最凶猛齧齒類動物)</p>
                     <img src="img/lv2.jpg" class="img-fluid" alt="皇后">
                 </div>
@@ -72,7 +82,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.3 城堡</h2>
+                    <h2 id="lv3"></h2>
                     <p>黑鼠(啊我就家鼠)</p>
                     <img src="img/lv3.jpg" class="img-fluid" alt="城堡">
                 </div>
@@ -90,7 +100,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.4 主教</h2>
+                    <h2 id="lv4"></h2>
                     <p>象鼩(速度比獵豹快三倍)</p>
                     <img src="img/lv4.jpg" class="img-fluid" alt="主教">
                 </div>
@@ -108,7 +118,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.5 騎士</h2>
+                    <h2 id="lv5"></h2>
                     <p>艾力根鼠(又名紳士鼠)</p>
                     <img src="img/lv5.jpg" class="img-fluid" alt="騎士">
                 </div>
@@ -127,7 +137,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.6 八兵</h2>
+                    <h2 id="lv6"></h2>
                     <p>黃胸鼠、水家鼠、巢鼠、田鼠、沙鼠、倉鼠、麝鼠、鼢鼠...等等等</p>
                     <img src="img/lv6.jpg" class="img-fluid" alt="死老鼠">
                 </div>
@@ -147,7 +157,7 @@
         <div class="row my-4 card-group">
             <div class="col-lg-4 card">
                   <div class="card-body">
-                    <h2>Lv.7 砲灰</h2>
+                    <h2 id="lv7"></h2>
                     <p>褐家鼠(名褐鼠、大鼠、挪威鼠、大家鼠、白尾吊、耗子、糞鼠、溝鼠)</p>
                     <img src="img/lv7.jpg" class="img-fluid" alt="褐家鼠">
                 </div>
@@ -163,6 +173,8 @@
                 </div>
         </div>
 
+
+
       </div>
       
       <div class="top"><a href="#">︿</a></div>
@@ -170,5 +182,7 @@
 <script src="js/jquery-3.6.4.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/all.js"></script>
+<script src="js/mouseAll.js"></script>
+
 
 </html>

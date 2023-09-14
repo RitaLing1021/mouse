@@ -14,3 +14,13 @@
   font-size:2rem;
   text-decoration:none;
 }
+#titleH1{
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: brown;
+}
+.titleH1{
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: brown;
+}
