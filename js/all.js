@@ -67,3 +67,8 @@ let titleLi = document.querySelector('.list');
 let link = 'http://www.yahoo.com.tw';
 let titleslogan = '老鼠老虎傻傻分不清楚';
 titleLi.innerHTML ='<li><a href="'+link+'">'+titleslogan+'</a></li>';
+
+let btntest =document.querySelector('.btn');
+btntest.addEventListener('click',function(e){
+  alert('你點了!!!');
+},false);

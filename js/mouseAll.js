@@ -47,8 +47,17 @@ let mouseLength = mouseSystem.length;
 let mouseTitle = '';
 for(i=0;i<mouseLength;i++){
     if(mouseSystem[i].number>4){
-    let content = '<li>'+ mouseSystem[i].mouseName +'</li>';
-    mouseTitle +=content;
-}
+        let content = '<li>'+ mouseSystem[i].mouseName +'</li>';
+        mouseTitle +=content;
+    }
 }
 mouseAll.innerHTML = mouseTitle;
+
+
+let mouseAll2 = document.querySelector('.list2');
+let mouseLength2 = mouseSystem.length;
+for(i=0;i<mouseLength2;i++){
+        let content2 = document.createElement('li');
+        content2.textContent = mouseSystem[i].mouseName;
+        mouseAll2.appendChild(content2);
+}
